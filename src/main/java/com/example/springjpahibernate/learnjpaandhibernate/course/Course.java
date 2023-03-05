@@ -27,7 +27,6 @@ public class Course {
     }
 
     public Course(String name, String author) {
-
         this.name = name;
         this.author = author;
     }

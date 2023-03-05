@@ -28,8 +28,10 @@ public class CourseJpaRepository {
         return entityManager.find(Course.class, id);
     }
 
+
     public void deleteById(long id) {
         Course course = entityManager.find(Course.class, id);
+
         entityManager.remove(course);
 
 
