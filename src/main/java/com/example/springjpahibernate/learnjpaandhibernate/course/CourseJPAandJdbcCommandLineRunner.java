@@ -45,7 +45,6 @@ public class CourseJPAandJdbcCommandLineRunner implements CommandLineRunner {
 
     // for entity manager code - comment the jdbc template code to implement this line of code
 
-
 //    @Override
 //    public void run(String... args) throws Exception {
 //        jpaRepository.insert(new Course("Learn AWS Now!", "in28minutes"));
